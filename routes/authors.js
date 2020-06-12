@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 //  All Authors Route
-router.get("/authors", (req, res) => {
+router.get("/", (req, res) => {
 	res.render("authors/index");
 });
 
